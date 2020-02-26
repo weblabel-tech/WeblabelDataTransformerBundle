@@ -1,0 +1,17 @@
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        https://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="weblabel_data_transformer.decoder_resolver.generic" class="Weblabel\DataTransformer\Resolver\DecoderResolver">
+            <argument type="tagged_iterator" tag="weblabel_data_transformer.decoder"/>
+        </service>
+        <service id="weblabel_data_transformer.decoder_resolver" alias="weblabel_data_transformer.decoder_resolver.generic" public="true"/>
+        <service id="Weblabel\DataTransformer\DecoderResolverInterface" alias="weblabel_data_transformer.decoder_resolver"/>
+
+        <service id="weblabel_data_transformer.decoder.json" class="Weblabel\DataTransformer\Decoder\JsonDecoder">
+            <tag name="weblabel_data_transformer.decoder"/>
+        </service>
+    </services>
+</container>
