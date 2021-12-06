@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.4",
+        "php": ">=7.4",
         "symfony/framework-bundle": "^5.0",
         "weblabel/data-transformer": "^1.0"
     },
