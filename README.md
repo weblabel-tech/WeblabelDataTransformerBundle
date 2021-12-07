@@ -1,10 +1,6 @@
 WeblabelDataTransformerBundle
 ============
 
-[![Build Status](https://travis-ci.org/weblabel-tech/WeblabelDataTransformerBundle.svg?branch=master)](https://travis-ci.org/weblabel-tech/WeblabelDataTransformerBundle)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/weblabel-tech/WeblabelDataTransformerBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/weblabel-tech/WeblabelDataTransformerBundle/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/weblabel-tech/WeblabelDataTransformerBundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/weblabel-tech/WeblabelDataTransformerBundle/?branch=master)
-
 Installation
 ============
 
