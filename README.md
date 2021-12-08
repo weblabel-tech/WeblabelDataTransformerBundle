@@ -1,6 +1,8 @@
 WeblabelDataTransformerBundle
 ============
 
+[![Build Status](https://github.com/weblabel-tech/WeblabelDataTransformerBundle/actions/workflows/testsuite.yml/badge.svg)]
+
 Installation
 ============
 
