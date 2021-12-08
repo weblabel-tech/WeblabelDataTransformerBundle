@@ -11,7 +11,7 @@ use Weblabel\DataTransformerBundle\DependencyInjection\Compiler\DecoderCompilerP
 
 class DecoderCompilerPassTest extends TestCase
 {
-    public function test_resolver_autoconfiguration()
+    public function testResolverAutoconfiguration()
     {
         $containerBuilder = new ContainerBuilder();
         $decoderResolverDefinition = $containerBuilder->register('weblabel_data_transformer.decoder_resolver.generic');

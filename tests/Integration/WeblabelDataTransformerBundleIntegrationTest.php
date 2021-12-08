@@ -10,7 +10,7 @@ use Weblabel\DataTransformer\DecoderResolverInterface;
 
 class WeblabelDataTransformerBundleIntegrationTest extends KernelTestCase
 {
-    public function test_service_configuration()
+    public function testServiceConfiguration()
     {
         $kernel = self::bootKernel();
 
