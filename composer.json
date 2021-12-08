@@ -11,11 +11,11 @@
     ],
     "require": {
         "php": ">=7.4",
-        "symfony/framework-bundle": "5.4.*",
+        "symfony/framework-bundle": "^5.4",
         "weblabel/data-transformer": "^1.0.3"
     },
     "require-dev": {
-        "symfony/phpunit-bridge": "5.4.*",
+        "symfony/phpunit-bridge": "^5.4",
         "phpstan/phpstan": "^0.12.99",
         "phpstan/phpstan-symfony": "^0.12.44",
         "friendsofphp/php-cs-fixer": "^3.3"
