@@ -44,7 +44,7 @@ jobs:
       - name: Install composer dependencies
         run: composer install --no-progress --no-suggest --prefer-dist --optimize-autoloader
         env:
-          SYMFONY_REQUIRE: 5.4.*
+          SYMFONY_REQUIRE: 5.*
 
       - name: Install PHPUnit
         run: ./vendor/bin/simple-phpunit install
