@@ -29,11 +29,5 @@
         "psr-4": {
             "Weblabel\\DataTransformerBundle\\Tests\\": "tests/"
         }
-    },
-    "extra": {
-        "symfony": {
-            "allow-contrib": false,
-            "require": "5.4.*"
-        }
     }
 }
